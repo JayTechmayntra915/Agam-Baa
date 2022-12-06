@@ -1,0 +1,1044 @@
+@media (max-width:1400px) {
+    
+}
+
+
+
+@media (max-width:1200px) {
+    .banner-button a {
+        width: 470px;
+       }
+    .banner-contant {
+      top: 140px;
+      }
+      .men-cetegrys-div::before {
+      
+        top: 9px;
+       
+    }
+    .trending-heding {
+        font-size: 25px;
+       
+        padding: 32px 0px 17px 37px;
+    }
+    .menu ul li {
+        padding: 0px 13px 0px 0px;
+    }
+    .menu ul li a {
+      
+        font-size: 23px;
+       
+    }
+    .en::before {
+   
+        left: -50px;
+        
+    }
+    .login-button {
+        padding: 5px 142px;
+      
+       
+    }
+    .sucesfuly-img {
+       
+        margin-top: 35px;
+    }
+    .discound-code input {
+       
+        width: 73%;
+      
+    }
+    .login-section {
+        padding: 0px 0px 30px 0px;
+    }
+    .man-login-section {
+        padding: 30px 0px 30px 0px;
+    }
+    .rowndnek-second-man::before {
+        
+        right: -108px !important;
+    }
+    .elpse img {
+        display: none;
+    }
+    .elpse {
+      
+        display: none;
+    }
+    .dropbtn {
+     
+        padding: 0px 12px 0px 0px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .banner-button a {
+        width: 360px;
+        height: 84px;
+        font-size: 20px;
+        padding-top: 10px;
+        top: -90px;
+    }
+    .colors {
+        font-size: 23px;
+    }
+    .banner-contant a {
+        padding: 10px 23px;
+        font-size: 23px;
+    }
+    .banner-contant h1 {
+        font-size: 30px;
+    }
+    .banner-contant {
+        top: 172px;
+    }
+
+    .logo-footar {
+       
+        left: 4px;
+    }
+    .pay {
+        text-align: left; 
+    }
+    .copy-right-pay-text ul {
+      
+        text-align: left; 
+
+    }
+    .copyright-botam-text::before {
+        top: 69px;
+        left: 0px;
+         right: 0; 
+    }
+    .menu {
+     
+        display: none;
+    }
+    .togal {
+        display: block;
+        position: absolute;
+        top: 24px;
+        right: 0px;
+        left: 94%;
+        bottom: 0px;
+        margin: 0px auto;
+    }
+    .facebook {
+        padding-left: 33px;
+    }
+    .copy-right-h2 {
+        padding: 25px 0px 0px 33px;
+    }
+    .paypal {
+        padding: 0px 36px;
+    }
+    .copyright-botam-text::after {
+     
+        top: 154px;
+      
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+    .login-man {
+        margin-top: 6px;
+    }
+    .login-button {
+        padding: 5px 100px;
+    }
+    .forget-man-div h2 {
+        font-size: 32px;
+        padding: 15px 0px 15px 0px;
+    }
+    .login-button {
+        padding: 5px 80px;
+    }
+    .Terms-Conditions-man-div p {
+        font-size: 18px;
+        padding: 5px 0px 5px 80px;
+    }
+    .Terms-Conditions-man-div span {
+      
+        font-size: 29px;
+    }
+    .Terms-Conditions-man-div span {
+
+        font-size: 29px;
+    }
+    .Conditions {
+  
+        font-size: 30px;
+    }
+    .Policy p {
+        font-size: 18px;
+        padding-left: 50px;
+    }
+    .white-MenT-shirt {
+        padding: 40px 0px 0px 10px;
+    }
+    .edit-man-div-button a {
+        padding: 10px 15px;
+        font-size: 17px;
+    }
+    .rowndnek-img img {
+        width: 314px;
+    }
+    .rowndnek-second-man::before {
+       
+        right: 19px !important;
+    }
+    .rowndnek-text {
+        width: 374px;
+    }
+    .rowndnek-text h3 {
+        font-size: 30px;
+    }
+    .rowndnek-text a {
+        padding: 9px 26px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .rowndnek-man {
+        margin-top: 77px;
+    }
+
+  
+
+}
+
+
+
+@media (max-width:768px) {
+    .banner-contant {
+        margin: 0px;
+        width: 100%;
+    }
+    .banner-contant {
+        top: 155px;
+    }
+    .banner-contant h1 {
+        font-size: 24px;
+    }
+    .banner-contant a {
+        font-size: 18px;
+    }
+    .banner-button a {
+        width: 341px;
+        height: 84px;
+        font-size: 19px;
+        padding-top: 10px;
+        top: -90px;
+    }
+    .colors {
+        font-size: 20px;
+    }
+    .banner-button a {
+        width: 250px;
+        height: 81px;
+        font-size: 16px;
+        padding-top: 11px;
+        top: -90px;
+    }
+    div#v-pills-tabContent {
+        border-top: 1px solid rgb(192, 186, 186);
+        padding: 25px 0px 0px 0px;
+        border-left: none;
+    }
+    .Conditions {
+      
+        font-size: 28px;
+    }
+    .nav-pills .nav-link {
+        font-size: 21px;
+        padding: 1px 51px 13px 25px;
+    }
+    .agam-baa-order ul li {
+        padding: 1px 0px 5px 0px;
+    }
+    .agam-baa-order p {
+     
+        font-size: 18px;
+      
+    }
+    .agam-baa-order span {
+        font-size: 21px;
+    }
+    .agam-baa-order-man {
+        font-size: 27px;
+    }
+    .agam-baa-order ul li a {
+       
+        font-size: 21px;
+    }
+    .Terms-Conditions-man-div p {
+        font-size: 16px;
+        padding: 5px 0px 5px 10px;
+    }
+    .Terms-Conditions {
+        padding: 15px 0px 0px 0px;
+    }
+    .informsion-span {
+        font-size: 20px;
+    }
+    .login-man-div {
+       border-radius: 20px;
+    }
+    .login-man-div {
+        width: 99%;
+     
+    }
+    .login-right-man-img h2 {
+      
+        margin: 22px 0px 0px 0px;
+    }
+    .edit-man-div h2 {
+        text-align: left;
+        display: none;
+    }
+    .policyb {
+        font-size: 27px;
+    }
+    .Policy h3 {
+        font-size: 27px;
+       
+    }
+    .rgister-form-man {
+        width: 98%;
+        border-radius: 20px;
+    }
+    .white-MenT-shirt {
+       
+        padding: 40px 0px 0px 10px;
+    }
+    .single-man-img {
+        width: 460px;
+        height: 375px;
+       
+    }
+    .welcom-man-div h2 {
+        font-size: 29px;
+      
+    }
+    .sucesfully-text{
+        font-size: 40px !important;
+
+    }
+    .welcom-man-img img {
+        width: 300px;
+    }
+    .welcom-logo img {
+        right: -192px;
+        width: 55px;
+    }
+    .treck-line-man {
+        width: 100%;
+        height: 10px;
+        display: flex;
+    }
+    .white-color {
+        width: 400px;
+        height: 20px;
+    }
+    .blue {
+        width: 400px;
+        height: 20px;
+    }
+    .blue-right span {
+        width: 20px;
+        height: 20px;
+        bottom: 0px;
+        right: -6px;
+    }
+    .white-color-reletive {
+        width: 20px;
+        height: 20px;
+        bottom: 1px;
+        right: 0px;
+        margin: 0px;
+        left: auto;
+    }
+    .edit-man-div-button {
+        text-align: center;
+    }
+    .edit-man-div {
+       
+        flex-direction: column;
+    }
+    .rowndnek-text {
+        margin: auto;
+    }
+    .rowndnek-text a {
+    
+        position: relative;
+        z-index: 9;
+    }
+    .rowndnek-img {
+        /* width: 54%; */
+        width: 326px;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    .rowndnek-man {
+        margin-top: 14px;
+    }
+    .rowndnek-section {
+        padding: 30px 0px 40px 0px;
+    }
+    .rowndnek-img img {
+        width: 328px;
+        text-align: center;
+    }
+    .rowndnek-text h3 {
+        font-size: 23px;
+    }
+    .rowndnek-man::before {
+        display: none;
+       
+        
+    }
+    .rowndnek-img-man::before {
+       display: none;
+    }
+    th {
+        
+        width: 33%;
+    }
+    .uant {
+        width: 33%!important;
+    }
+
+
+}
+
+
+
+@media (max-width:575px) {
+    .banner-contant h1 {
+        font-size: 22px;
+    }
+  
+    .banner-contant {
+        margin: 2px 0px 0px 0px;
+    }
+    .grapick-banner-second{
+        display: none;
+    }
+  
+    .white-man::before{
+        display: none;
+    }
+    .banner-img-black-man::before {
+     
+        display: none;
+    }
+    .save-button button {
+        padding: 7px 136px;
+      
+    }
+    .single-man-img {
+        width: 294px;
+        height: 294px;
+    }
+    .trengle-img::before {
+        
+        border-left: 10px solid transparent;
+        border-right: 255px solid transparent;
+        border-top: 515px solid #FF7D04;
+    }
+    .single-productus-section {
+        padding: 11px 0px 40px 0px;
+    }
+    .banner-button a {
+        width: 216px;
+        height: 50px;
+        font-size: 14px;
+        padding-top: 3px;
+        top: -67px;
+    }
+    .colors {
+        font-size: 16px;
+    }
+    .cansal-order ul li {
+        font-size: 12px;
+    }
+    td img {
+        width: 92px;
+        height: 93px;
+    }
+    .add-card-div p {
+        font-size: 20px;
+    
+    }
+    .add-card-div small {
+        font-size: 18px;
+      
+    }
+    .add-card-div a {
+        font-size: 18px;
+        
+    }
+    .cansal-order {
+        width: 89px;
+     
+    } 
+    .cansal-order ul li b {
+        font-size: 15px;
+    }
+    .cetegry {
+        text-align: left;
+        padding: 16px 0px 0px 20px;
+        font-size: 25px;
+    }
+    .bags {
+        width: 134px;
+    }
+    .cetegry-second li {
+        padding: 0px 0px 4px 9px;
+        text-align: left;
+    }
+    .cetegry-second {
+        margin: 0px 0px 0px 0px;
+    }
+    .second-footar-div h2 {
+        font-size: 25px;
+    }
+    .second-footar-div ul li a {
+        font-size: 16px;
+    }
+    .cetegry-second li a {
+        font-size: 17px;
+    }
+    .copy-right-icon ul li a i {
+        font-size: 18px;
+        /* padding: 6px 6px; */
+        padding-top: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    .copy-right-h2 {
+        font-size: 17px;
+    }
+    .pay ul li a i {
+        font-size: 20px;
+        border-radius: 9px;
+    }
+    .copy-right-pay-text ul li a {
+        font-size: 17px;
+    }
+    .copy-right-pay-text ul li {
+        padding: 15px 217px 0px 0px;
+    }
+    .second-footar-div ul li {
+        padding: 4px 0px;
+        list-style: none;
+    }
+    .facebook {
+        margin-top: 15px;
+        padding-left: 8px;
+    }
+    .copy-right-h2 {
+        padding: 15px 0px 0px 8px;
+    }
+    .copyright-botam-text::after {
+        top: 113px;
+    }
+    .search {
+        width: 170px;
+        height: 37px;
+        font-size: 18px;
+    }
+    td:last-child {
+        font-size: 19px;
+    }
+    .contactus-icons ul {
+    
+        text-align: left;
+    }
+    .contactus-section {
+        padding: 36px 0px 30px 0px;
+    }
+    .contactus-icons ul li a i {
+        font-size: 20px;
+    }
+    .contactus-man-div ul li {
+      
+        font-size: 21px;
+      
+    }
+    .contactus-man-div ul li a {
+
+        font-size: 20px;
+    }
+    .login-right-man-img {
+        display: none;
+    }
+    .login-button {
+        padding: 5px 35px;
+        margin: 10px 0px 3px 0px;
+        font-size: 20PX;
+    }
+    .forget-password {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px;
+    }
+    .form-control {
+        font-size: 16px;
+    }
+    .login-man-div h2 {
+        font-size: 29px;
+        padding: 3px 0px;
+    }
+    .login-man-div img {
+        width: 65px;
+       
+    }
+    .or {
+        font-size: 20px;
+    }
+    .login-icon li img {
+        width: 19px;
+    }
+    .login-man-div {
+      
+        padding: 10px 40px;
+    }
+    .rgister-man-img {
+        display: none;
+    }
+    .first-footar img {
+        margin: 0px 0px 0px 0px;
+        opacity: 0.1;
+    }
+    .form-outline input {
+      
+     
+        margin: 0px 0px 0px 0px;
+    }
+    .second-footar-div h2 {
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .paypal {
+        padding: 0px 17px;
+    }
+    .trengle-img::before{
+     
+        display: none;
+       
+
+    }
+    .single-product{
+        display: none;
+    }
+    .single-silaider-mobail-product{
+    
+        display: block!important;
+    }
+    .share-icon {
+        top: 42px;
+        font-size: 22px;
+    }
+    .white-MenT-shirt h2 {
+        font-size: 23px;
+    }
+    .white-MenT-shirt p {
+        font-size: 15px;
+        margin: 0px 0px 5px 0px;
+    }
+    .white-MenT-shirt ul {
+        margin: 6px 0px;
+    }
+    .white-MenT-shirt span {
+        font-size: 21px;
+    }
+    .white-MenT-shirt input {
+        font-size: 15px;
+        width: 72px;
+    }
+    #clothes {
+        width: 75px;
+        padding: 5px 2px;
+        margin-top: 3px;
+    }
+    li.small-img {
+        width: 20px!important;
+        height: 20px!important;
+    }
+    .add-to-card {
+        padding: 10px 33px;
+        font-size: 20px;
+    }
+    .buy-now {
+        padding: 10px 33px;
+        font-size: 20px;
+    }
+    .my-account-man h2 {
+        font-size: 25px;
+        padding: 30px 0px 9px 0px;
+    }
+    .your-email-div-text ul li {
+       
+        font-size: 20px;
+    }
+    .your-email-div-img span a i {
+        padding: 20px 20px;
+    }
+    .welcom-man-div-mg img {
+        width: 245px;
+    }
+    .welcom-man-div-mg {
+        width: 313px;
+    }
+    .banner-contant {
+        height: 10px;
+    }
+    .logo-footar img {
+        opacity: 1.2;
+    }
+    .copyright-botam-text::before {
+    
+        opacity: 0.1;
+    }
+    .rgister-buton button {
+     
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .my-acound-form-ul {
+        height: 383px;
+    }
+    .baa{
+        display: none;
+    }
+    .rowndnek-img img {
+        width: 300px;
+      
+    }
+    .rowndnek-text h3 {
+        font-size: 20px;
+    }
+    .rowndnek-img {
+        width: 300px;
+       
+    }
+    .rowndnek-text {
+        width: 300px;
+    }
+    .rowndnek-text a {
+        padding: 11px 26px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .rowndnek-section-second {
+        padding: 30px 0px 30px 0px!important;
+    }
+    .togal {
+        left: 88%;
+        top: 26px;
+    }
+}
+
+@media (max-width:425px) {
+  
+    .banner-contant {
+        top: 113px;
+    }
+    .search {
+        margin: 12px 10px;
+    }
+    .banner-contant a {
+        font-size: 16px;
+        margin: 2px 0px 0px 0px;
+    }
+    .copyright-botam-text::after {
+        top: 116px;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .magnifying-glass {
+        top: 28px;
+        left: 102px;
+    }
+    .logo-footar img {
+       
+        margin: 0px 0px 0px 16px;
+        opacity: 1.2;
+    }
+    .togal {
+        top: 16px;
+        /* right: 4px; */
+    }
+        .login-button {
+            padding: 5px 68px;
+        }
+        .forget-button {
+            margin: 15px 0px;
+        }
+        .forget-man-div h2 {
+            font-size: 24px;
+            padding: 15px 0px 6px 0px;
+        }
+        .login-button {
+            padding: 5px 35px;
+        }
+        td:last-child {
+            font-size: 14px;
+        }
+        td img {
+            width: 63px;
+            height: 63px;
+        }
+        .add-card-div p {
+            font-size: 17px;
+          
+        }
+        .add-card-div small {
+            font-size: 17px;
+           
+        }
+        .add-card-div a {
+            font-size: 17px;
+            
+        }
+        th {
+            padding: 7px;
+            font-size: 17px;
+        }
+        td input {
+            width: 70px;
+            height: 26px;
+            padding: 5px 0px 5px 30px;
+            margin: 0px 23px;
+        }
+        td {
+            font-size: 17px;
+        }
+        .place-order-button {
+            padding: 9px 15px;
+            font-size: 17px;
+        }
+        .cansal-order {
+            width: 72px;
+        }
+        .cansal-order ul li b {
+            font-size: 15px;
+        }
+      
+        .order-one {
+            padding: 0px 20px;
+      
+        }
+        th:last-child {
+         
+            font-size: 17px;
+
+        }
+        .discound-code input {
+            width: 64%;
+        }
+        .informsion-paynow-img {
+            width: 123px;
+         
+            margin: 0px 8px 0px 5px;
+        }
+        .informsion-paynow-img img {
+            width: 60px;
+            height: 83px;
+        }
+        .discound-code button {
+            font-size: 14px;
+            padding: 3px 11px;
+    
+        }
+        .discound-code input {
+            width: 69%;
+            margin: 10px 3px 10px 6px;
+            font-size: 13px;
+        }
+        .total-amound td span {
+            font-size: 18px;
+        }
+        .total-amound td small {
+            font-size: 18px;
+        }
+        .pay-now-butoon-informsion a {
+            font-size: 14px;
+        }
+        .informsion-paynow-img {
+            width: 63px;
+            height: 95px;
+            margin: 13px 8px 0px 5px;
+        }
+        .login-man-div h2 {
+            font-size: 29px;
+            padding: 3px 0px;
+        }
+        .save-button button {
+            padding: 7px 84px;
+        }
+        .edit-man-div h2 {
+          
+            padding: 30px 0px 0px 0px;
+        }
+     
+      
+      
+        .your-email-div-text ul li {
+          
+            font-size: 23px;
+        }
+        .your-email-div-img span a i {
+            padding: 20px 22px;
+            
+        }
+        .Policy p {
+            font-size: 18px;
+            padding-left: 1px;
+        }
+        .rgister-form-man h2 {
+            font-size: 30px;
+        }
+        .form-control {
+            font-size: 16px;
+           
+        }
+        .rgister-buton button {
+            font-size: 21px;
+            margin-top: 11px;
+        }
+        .white-MenT-shirt span {
+            font-size: 20px;
+        }
+     
+        .qunity-button  a {
+           
+            padding: 0px 9px;
+            font-size: 20px;
+           
+        }
+        .add-to-card {
+          
+            padding: 10px 14px;
+           
+          
+        }
+        .buy-now {
+            padding: 10px 27px;
+            margin: 20px 10px 0px 0px;
+        }
+        .sucesfuly-img h2 {
+            font-size: 40px;
+        }
+        .sucesfuly-img img {
+            width: 100%;
+        }
+        .sucesfuly-img {
+            margin-top: 300px;
+        }
+        .sucesfuly-img h2 {
+            font-size: 30px;
+        }
+        .welcom-man-div h2 {
+            font-size: 22px;
+        }
+       
+       
+        .banner-button a {
+            width: 146px;
+            font-size: 12px;
+            padding-top: 1px;
+            top: -47px;
+            height: 44px;
+        }
+        .treking-order-man-div table td {
+            padding: 10px 2px;
+            font-size: 16px;
+          
+        }
+        .treking-order-man-div table th {
+            width: 20%;
+            font-size: 19px;
+        }
+        .acound-adit-secion {
+            padding: 0px 0px 20px 0px;
+        }
+        .copy-right-icon ul li {
+            padding: 0px 14px 15px 0px;
+        }
+        .star-product-list {
+          
+            left: 0px;
+        }
+        .star-product-list ul {
+        
+            text-align: center;
+        }
+        .quant{
+            text-align: center!important;
+        }
+        .updat{
+            padding: 0px 0px 0px 8px !important;
+        }
+     
+     
+    
+    }
+ 
+
+
+
+
+@media (max-width:375px) {
+    .search {
+        width: 175px;
+        
+    }
+    .copy-right-pay-text ul li {
+        padding: 15px 150px 0px 0px;
+    }
+}
+
+
+
+
+@media (max-width:320px) {
+    .copyright-botam-text::after {
+        top: 114px;
+    }
+    td img {
+        width: 50px;
+        height: 50px;
+    }
+    .cansal-order {
+        width: 52px;
+    }
+    .cansal-order ul li b {
+        font-size: 11px;
+    }
+    .cansal-order ul li i {
+        font-size: 15px;
+        width: 21px;
+        height: 21px;
+    }
+    .order-one {
+        padding: 0px 20px;
+    }
+    .add-card-div p {
+        font-size: 15px;
+    }
+    .add-card-div small {
+        font-size: 15px;
+    }
+    .add-card-div a {
+        font-size: 15px;
+    }
+    th {
+        padding: 0px;
+        font-size: 17px;
+    }
+
+}

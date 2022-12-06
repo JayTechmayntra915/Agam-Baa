@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="myfunction()">
+
+    <div id="preloder"></div>
+
+    <header>
+        <section class="navbar-section">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-0 col-sm-10 col-md-10 col-lg-4 col-xl-4">
+                        <div class="logo-div">
+                            <div class="logo">
+                                <a href="#"><img src="imges/logo (2).png" alt=""></a>
+                                <input class="search" type="search" name="search" id="" placeholder="Search" >
+                            </div>
+                            <!------<span class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></span>--->
+                        </div>
+                    </div>
+                    <div class=" col-0 col-sm-2 col-md-2 col-lg-8 col-xl-8">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Categories</button>
+                                    <div class="dropdown-content">
+                                        <div class="cetegry-drop-down-man-woman">
+                                            <ul class="cloth-drop" >
+                                                <li><a href="productus-list.html">Men</a> </li>
+
+                                                <li><a href="#">Women</a></li>
+                                                <li><a href="#">Filmstar Collections</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                            </ul>
+                                            <div class="cetegry-hover-dropdown">
+                                                <div class="hover-dropdown-first-div">
+                                                    <h4>Topwear</h4>
+                                                    <span><a href="productus-list.html">T-shirts</a></span>
+                                                    <span><a href="productus-list.html">Hoodies</a></span>
+                                                </div>
+                                                <div class="hover-dropdown-first-div">
+                                                    <h4>Bottomwear</h4>
+                                                    <span><a href="#">Jeans</a></span>
+                                                    <span><a href="#">Crasual Trouser</a></span>
+                                                    <span><a href="#">Formal Trouser</a></span>
+                                                </div>
+                                                <div class="hover-dropdown-first-div">
+                                                    <h4>Footwear</h4>
+                                                    <span><a href="#">Casual Shoes</a></span>
+                                                    <span><a href="#">Sports Shoes</a></span>
+                                                    <span><a href="#">Formal Shoes</a></span>
+                                                </div>
+                                                <div class="hover-dropdown-first-div">
+                                                    <h4>Wintercollections</h4>
+                                                    <span><a href="#">Sweatshirts</a></span>
+                                                    <span><a href="#">Jackets</a></span>
+                                                    <span><a href="#">Sweater</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li><a href="contactus.html">Contact us</a></li>
+                                <li><a href="aboutus.html">About us</a></li>
+                                <li class="en"><a href="#">EN</a></li>
+                                <li><a href="#">USD</a></li>
+                                <li class="en"><a href="login-page.html"> <i class="fa-solid fa-user"></i></a></li>
+                                <li><a href="add-to-card.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                <li><a href="my-wish-list.html"><i class="fa-solid fa-heart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="index.html">Home</a>
+                            <a href="productus-list.html">Categories</a>
+                            <a href="productus-list.html">Men's wear</a>
+                            <a href="productus-list.html">Women's Wear</a>
+                            <a href="contactus.html">Contact us</a>
+                            <a href="aboutus.html"> About us</a>
+                            <a href="#">EN</a>
+                            <a href="#">USD</a>
+                            <div class="mobail-icon-respons">
+                            <a href="login-page.html"> <i class="fa-solid fa-user"></i></a>
+                            <a href="add-to-card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="my-wish-list.html"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        </div>
+                        <span class="togal" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <section class="banner-section">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class=" col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="banner-right-img">
+                        <div class="banner-img-black-man">
+                            <img src="imges/imgpsh_fullsize_anim (1).png" alt="">
+                            <div class="banner-button banner-first-button">
+                                <a href="#"> <b class="baa"> Aagam Baa </b> Special logo  <b class="baa" >T-shirt</b>  <br> <b class="colors">10+colors </b>
+                                    <b class="baa">RoundNeck </b>  T-shirts</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="banner-left-img">
+                        <div class="white-man">
+                            <img src="imges/imgpsh_fullsize_anim.png" alt="">
+                            <div class="banner-button ">
+                                <a class="grapick-banner-second" href="#">Graphic <b class="colors">T-Shirt </b> <br>
+                                    Aagam Baa </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container  ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner-contant">
+                        <h1>OFFICIAL MERCHANDISE</h1>
+                        <h1>OF</h1>
+                        <h1>AAGAM BAA</h1>
+                        <a href="productus-list.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="rowndnek-section" >
+        <div class="container">
+            <div class="row elpse-reletive">
+                <div class="col-md-6">
+                    <div class="rowndnek-man">
+                        <div class="rowndnek-text">
+                            <h3>Aagam Baa Special Logo
+                                T-shirt 10+ Color
+                               Roundneck T-shirts</h3>
+                              <a href="productus-list.html">Shop Now</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-6">
+                    <div class="rowndnek-img-man">
+                        <div class="rowndnek-img">
+                            <img src="imges/Group 12.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="elpse">
+                    <img src="imges/Ellipse 18 (1).png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="rowndnek-section rowndnek-section-second " >
+        <div class="container">
+            <div class="row elpse-reletive">
+               
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="rowndnek-img-man rowndnek-img-man-second">
+                        <div class="rowndnek-img rowndnek-second-img">
+                            <img src="imges/Group 12.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="rowndnek-man rowndnek-second-man ">
+                        <div class="rowndnek-text rowndnek-second-text ">
+                            <h3>Graphic T-shirt <br>
+                                Aagam Baa</h3>
+                              <a href="productus-list.html">Shop Now</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="elpse">
+                    <img src="imges/Ellipse 18 (1).png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="trending-outfit-section">
+        <div class="container">
+            <div class="row ">
+                <h2 class="trending-heding">Trending Outfit</h2>
+                <div class="trending-items">
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (36) 1 (1).png"
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Being human T-shirts</h4>
+                                <a class="min" href="#">Min.-30% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (35) 1.png "
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4> fullsleave T-shirts</h4>
+                                <a class="min" href="#">Min.-20% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (34) 1.png "
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Men’s Hoodies</h4>
+                                <a class="min" href="#">Min.-20% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (33) 1.png "
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Best winter collections</h4>
+                                <a class="min" href="#">Min.-20% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (32) 1 (1).png "
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Shorts for men’s</h4>
+                                <a class="min" href="#">Min.-20% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (35) 1.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Being human T-shirts</h4>
+                                <a class="min" href="#">Min.-20% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/image-removebg-preview (34) 1.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Being human T-shirts</h4>
+                                <a class="min" href="#">Min.-20% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               
+            </div>
+            <div class="row ">
+                <h2 class="trending-heding">Best Accessories</h2>
+                <div class="trending-items">
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/bottel 1 (1).png " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Water bottle</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/cap 1.png " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Men’s cap</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/mask 1.png  " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Mask</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/SHOES 1.png " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Shoes</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/bottel 1 (1).png   " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Water bottle</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/SHOES 1.png " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Shoes</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="trending-outfit-man">
+                            <div class="trending-outfit-man-img">
+                                <a href="single-products.html"><img src="imges/cap 1.png " alt=""></a>
+                            </div>
+                            <div class="trending-outfit-man-text">
+                                <h4>Men’s cap</h4>
+                                <a class="min" href="#">Min.-30% off</a> <br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+
+
+    
+
+
+    <section class="footar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="first-footar">
+                        <img src="imges/final-footar-img.png" alt="">
+
+                        <div class="logo-footar">
+                            <img src="imges/logo (2).png" alt="">
+                        </div>
+                        <div class="form-outline">
+                            <input type="search" id="form1" class="form-control" placeholder="Your E-mail Here"
+                                aria-label="Search" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="second-footar-div">
+                        <h2>Address</h2>
+                        <ul>
+                            <li><a href="#">20, Awesome Road,
+                                    New York, Usa 4D BS3</a></li>
+                            <li><a href="tel:123 456 7890">+123 456 7890</a></li>
+                            <li><a href="mailto:hello@aagambaa.com">hello@aagambaa.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class=" col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="second-footar-div">
+                        <h2>Usefull Link</h2>
+                        <ul>
+                            <li><a href="aboutus.html">About us</a></li>
+                            <li><a href="contactus.html">Contact us</a></li>
+                            <li><a href="trek-order.html">Track order</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 men-cetegrys ">
+                    <div class="row men-cetegrys-div">
+                        <h2 class="cetegry">Categories</h2>
+
+                        <div class="col-6 col-sm-6  col-md-6  col-lg-6  col-xl-6 bags">
+                            <ul class="cetegry-second">
+                                <li><a href="productus-list.html">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Accesories</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-6  col-md-6  col-lg-6  col-xl-6 bags">
+                            <ul class="cetegry-second">
+                                <li><a href="#">Shoes</a></li>
+                                <li><a href="#">Badgets</a></li>
+                                <li><a href="#">Mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row copyright-botam-text">
+                <div class="col-sm-12  col-md-12 col-lg-6 col-xl-6 ">
+                    <div class="copy-right-icon facebook">
+                        <ul>
+                            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://help.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+
+                        </ul>
+                    </div>
+
+                    <h2 class="copy-right-h2">All rights reserved Aagam Baa     2022</h2>
+
+                </div>
+
+                <div class="col-sm-12  col-md-12 col-lg-6 col-xl-6 paypal ">
+                    <div class="copy-right-icon pay ">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-cc-paypal"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-stripe"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-cc-mastercard"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-apple-pay"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="copy-right-pay-text">
+                        <ul>
+                            <li><a href="Terms- Conditions.html">Terms & Condition</a></li>
+                            <li><a href="return-exchange.html">Privacy Policy</a></li>
+                            <li><a href="frequently-asked-questions.html">FAQ</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <a id="button"></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/java.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
